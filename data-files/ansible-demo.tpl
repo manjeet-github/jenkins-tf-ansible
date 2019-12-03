@@ -4,7 +4,7 @@ sudo apt-get install software-properties-common -y
 sudo apt-add-repository ppa:ansible/ansible -y
 sudo apt install ansible -y
 cd /home/ubuntu
-sudo git clone https://github.com/marcchua/ansible-samples.git
+sudo git clone https://github.com/manjeet-github/ansible-samples.git
 
 sudo cat << EOT > /home/ubuntu/.ssh/id_rsa
 ${private_key_pem}
